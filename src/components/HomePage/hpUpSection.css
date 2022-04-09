@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upText {
+    font-family: 'Manrope';
+    width: 70%;
+}
+
+.upText h2 {
+    font-size: 3.2vh;
+    color: #374842;
+}
+
+
+.upText h1 {
+    font-size: 6.9vh;
+    font-weight: 900;
+    line-height: 1;
+    color: #374842;
+}
+
+.profile {
+    position: absolute;
+    top: 6%;
+    right: 2%;
+}
+
+.profile img {
+    height: 8vh;
+    width: auto;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+    transition: 100ms ease;
+}
+
+.profile img:hover {
+    outline: solid 3px rgb(236, 236, 236);
+}
+
+.profile img:active {
+    outline: solid 9px rgb(236, 236, 236);
+}
+
+.mPencarian {
+    margin-top: 40px;
+}
+
+.pencarian input {
+    height: 6vh;
+    width: 100%;
+    padding: 0 15px;
+    font-family: 'Manrope';
+    border-radius: 8px;
+    border: none;
+    background-color: #F1F2FA;
+    outline: none;
+}
+
+.pencarian label {
+    position: absolute;
+    right: 4vh;
+    margin-top: 1.8vh;
+    cursor:pointer;
+}
+
+.pencarian label svg {
+    height: 2.5vh;
+    width: auto;
+    fill: #979797;
+    transition: 200ms ease;
+}
+
+.pencarian label svg:hover {
+    fill: black;
+}

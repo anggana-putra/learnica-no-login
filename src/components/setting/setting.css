@@ -1,0 +1,165 @@
+* {
+    font-family: 'Manrope';
+}
+
+.all-set {
+    color: #374842;
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.up-part-set {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.set-umum, .set-grafis, .set-privasi {
+    padding-top: 20px;
+}
+
+.set-dukungan, .set-terhubung {
+    padding-top: 40px;
+}
+
+#grid {
+    border-bottom: solid 1px #ECECEC;
+    padding: 15px 0;
+    background-color: white;
+    padding-right: 10px;
+}
+
+#grid:hover {
+  background-color: #fdfdfd;
+}
+
+#grid:hover #next {
+  fill: black;
+}
+
+#grid:hover #info-ico {
+  fill: black;
+}
+
+#next {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    fill: #ECECEC;
+    transition: 100ms ease;
+}
+
+#sosmed {
+    float:  left;
+    position: relative;
+    bottom: -3px;
+    margin-right: 13px;
+    transition: 100ms ease;
+}
+
+#info-ico {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+    fill: #dddddd;
+}
+
+
+.up-part-set h2 {
+    margin-left: 40%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 23px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ECECEC;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #1EE494;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #1EE494;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .toggle {
+      position: absolute;
+      left: 86.7%;
+      margin-top: -22px;
+  }
+
+  .notifikasi, .bahasa, .kualitas, .kualitas, .ganti-sandi, .pusat-bantuan, .kebijakan-privasi, .syarat-ketentuan, .masukan-saran, .hubungi-kami,.logout  {
+      cursor: pointer;
+  }
+
+.logout {
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.hapus-akun {
+    background-color: #FFF5F5;
+    color: #EA4335;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 0;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.versi {
+    font-size: 15px;
+    margin: 10px 0 120px 0;
+    color: #C4C4C4;
+}

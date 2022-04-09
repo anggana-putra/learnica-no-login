@@ -1,0 +1,129 @@
+.wrapLan {
+    padding-top: 60px;
+    font-family: 'Manrope';
+    color: #374842;
+}
+
+.wrapLan h2 {
+    font-size: 5vh;
+    line-height: 1;
+}
+
+.pembelajaranOne .wrap-pembelajaranOne {
+    background: #282828;
+    height: 35vh;
+    width: 40%;
+    border-radius: 17px;
+    outline: solid 2px #D8DAED;
+}
+
+.wrap-pembelajaranOne:hover {
+    outline: solid 3px #D8DAED;
+}
+
+.pembelajaranOne .astronomi {
+    height: 35vh;
+    width: 75%;
+    object-fit: cover;
+    object-position: -150px 4%;
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.asText {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 25vh 0 0 0;
+    height: 25vh;
+    width: 60%;
+    border-radius: 0 17px 17px 0;
+    margin-left: 20%;
+    font-family: 'Manrope';
+    color: white;
+}
+
+.asText h2 {
+    font-size: 3vh;
+}
+
+.asText p {
+    font-size: 2vh;
+}
+
+.pembelajaranOne {
+    margin-top: 30px;
+}
+
+.slide {
+    position: absolute;
+    border-radius: 5px;
+    height: 1vh;
+    width: 40%;
+    background-color: #1EE494;
+    z-index: 3;
+}
+
+.slideB {
+    position: absolute;
+    border-radius: 5px;
+    height: 1vh;
+    width: 130%;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+#slide {
+    margin-left: -13px;
+    margin-top: 7px;
+}
+
+
+.wrap-riwayat {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.riwayat {
+    height: 165px;
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 20px 30px;
+    outline: solid 2px #D8DAED;
+    margin: 20px 0 50px 0;
+}
+
+.riwayat h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.riwayat h1 {
+    position: relative;
+    bottom: 20px;
+}
+
+
+.riwayat button {
+    height: 34px;
+    width: 100px;
+    cursor: pointer;
+    outline: none;
+    background-color: #1EE494;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Manrope';
+    font-weight: 600;
+    color: #374842;
+    position: relative;
+    bottom: 6px;
+}
+
+.riwayat p {
+    position: relative;
+    left: 85%;
+    bottom: 30px;
+}
+

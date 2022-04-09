@@ -1,0 +1,46 @@
+.quickBar {
+    position: fixed;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    background-color: white;
+    width: 65vh;
+    height: 15vh;
+    border-radius: 10px;
+    border: solid 1px #d8daed;
+    z-index: 2;
+    overflow: hidden;
+    opacity: 1;
+  }
+  
+  .quickBar li {
+    padding: 1vh;
+    margin: 0 36px;
+  }
+  
+  #home-ico,
+  #jelajah-ico,
+  #tournament-ico,
+  #shop-ico {
+    fill: #d8daed;
+    transition: 200ms ease;
+  }
+  
+  #home-ico:hover,
+  #jelajah-ico:hover,
+  #tournament-ico:hover,
+  #shop-ico:hover {
+    fill: #c1c3ce;
+  }
+  
+  #home-ico:active,
+  #jelajah-ico:active,
+  #tournament-ico:active,
+  #shop-ico:active {
+    fill: #1ee494;
+  }
+  
