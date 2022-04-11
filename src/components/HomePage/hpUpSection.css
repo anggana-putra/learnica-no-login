@@ -1,3 +1,4 @@
+/*style yang tidak di pakai kemungkinan akan di pakai di moda dekstop*/
 * {
     margin: 0;
     padding: 0;
@@ -82,16 +83,17 @@
 @media only screen and (max-width: 400px) {
     .mPencarian {
         position: relative;
-        bottom: 25px;
+        bottom: 10px;
+        margin-bottom: 20px;
     }
     .pencarian label {
         position: absolute;
         left:  92%;
-        margin-top: 0.7vh;
+        margin-top: 0.8vh;
         cursor:pointer;
     }
     .pencarian input {
-        height: 4vh;
+        height: 33px;
         width: 100%;
         padding: 0 15px;
         font-family: 'Manrope';

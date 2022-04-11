@@ -1,3 +1,5 @@
+/*style yang tidak di pakai kemungkinan akan di pakai di mode dekstop*/
+
 .gradientSimulasi {
     position: absolute;
     height: 25vh;
@@ -184,7 +186,7 @@
 @media only screen and (max-width: 400px) {
     .gradientSimulasi {
         height: 15vh;
-        width: 89.5%;
+        width: 90%;
     }
     .simulasiMode .wrap {
         height: 15vh;
@@ -194,6 +196,10 @@
         width: 55%;
         object-position: -20px 32%;
     }
+    .siText {
+        height: 15vh;
+    }
+    
     .siText h2 {
         font-size: 2.5vh;
     }
@@ -203,7 +209,7 @@
     }
     .gradientSandbox {
         height: 15vh;
-        width: 89.5%;
+        width: 90%;
     }
     .sandboxMode .wrapSa {
         height: 15vh;
@@ -213,6 +219,9 @@
         width: 75%;
         object-position: -50px 40%;
     }
+    .saText {
+        height: 15vh;
+    }
     .saText h2 {
         font-size: 2.5vh;
     }
@@ -221,7 +230,7 @@
     }
     .gradientVersus {
         height: 15vh;
-        width: 89.5%;
+        width: 90%;
     }
     .versusMode .wrapVe {
         height: 15vh;
@@ -231,6 +240,9 @@
         width: 70%;
         object-position: -37px 40%;
     }    
+    .vaText {
+        height: 15vh;
+    }
     .veText h2 {
         font-size: 2.5vh;
     }

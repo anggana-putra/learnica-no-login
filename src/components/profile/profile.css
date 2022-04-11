@@ -1,13 +1,15 @@
+/*style yang tidak di pakai kemungkinan akan di pakai di mode dekstop*/
+
 .edit {
     position: absolute;
     left: 91%;
-    top: 25%;
+    top: 19%;
     z-index: 1;
     cursor: pointer;
 }
 
 .profilePic {
-    height: 35vh;
+    height: 30vh;
     width: auto;
     position: absolute;
     left: 50%;
@@ -16,6 +18,7 @@
 }
 
 .cardProfile {
+    overflow: hidden;
     padding: 115px 40px 0px 40px;
     height: 390px;
     width: 90%;
@@ -25,7 +28,7 @@
     font-family: 'Manrope';
     position: absolute;
     left: 50%;
-    top: 55%;
+    top: 45%;
     transform: translate(-50%,-50%);
     color: #374842;
 }
@@ -41,14 +44,14 @@
     margin: 5px 20px;
     font-size: 18px;
     position: relative;
-    left: 50px;
+    left: 21px;
 }
 
 #follows {
     float: left;
     margin: 0px 15px;
     position: relative;
-    left: 85px;
+    left: 55px;
     width: 80px;
     padding-bottom: 20px;
 }
@@ -61,11 +64,12 @@
 #cita-seko {
     font-size: 14px;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 13px;
     padding: 3px 10px;
     border-radius: 5px;
     background-color: #F1F2FA;
+    font-size: 12px;
 }
 
 .bioCont {
@@ -118,14 +122,15 @@
 
 .data {
     position: absolute;
-    top: 90%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 420px;
+    width: 350px;
     height: 340px;
+    align-content: space-around;
     padding-bottom: 120px;
 }
 
@@ -134,8 +139,8 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    height: 100px;
-    width: 205px;
+    height: 80px;
+    width: 170px;
     font-family: 'Manrope';
     padding: 0px 20px 20px 20px;
     border-radius: 10px;
@@ -156,19 +161,19 @@
 }
 
 .level p {
-    margin-left: 39px;
+    margin-left: 35px;
 }
 
 .rank p {
-    margin-left: 55px;
+    margin-left: 46px;
 }
 
 .lencana p {
-    margin-left: 51px;
+    margin-left: 43px;
 }
 
 .sandbox p {
-    margin-left: 40px;
+    margin-left: 36px;
 }
 
 .level, .lencana {
