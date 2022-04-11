@@ -23,9 +23,9 @@
 }
 
 .profile {
-    position: absolute;
-    top: 6%;
-    right: 2%;
+    float: right;
+    position: relative;
+    bottom: 17vh;
 }
 
 .profile img {
@@ -46,7 +46,8 @@
 }
 
 .mPencarian {
-    margin-top: 40px;
+    position: relative;
+    bottom: 50px;
 }
 
 .pencarian input {
@@ -62,7 +63,7 @@
 
 .pencarian label {
     position: absolute;
-    right: 4vh;
+    left:  100%;
     margin-top: 1.8vh;
     cursor:pointer;
 }
@@ -76,4 +77,122 @@
 
 .pencarian label svg:hover {
     fill: black;
+}
+
+@media only screen and (max-width: 430px) {
+    .mPencarian {
+        position: relative;
+        bottom: 30px;
+    }
+    .pencarian label {
+        position: absolute;
+        left:  91%;
+        margin-top: 0.8vh;
+        cursor:pointer;
+    }
+    .pencarian label svg {
+        height: 1.3vh;
+        width: auto;
+        fill: #979797;
+        transition: 200ms ease;
+    }
+    .pencarian input {
+        height: 3vh;
+        width: 100%;
+    }
+    .upText {
+        font-family: 'Manrope';
+        width: 90%;    
+    }
+    .upText h2 {
+        font-size: 2vh;
+    }
+    .upText h1 {
+        font-size: 3.5vh;
+        font-weight: 900;
+        line-height: 1;
+        color: #374842;
+    }
+    .profile img {
+        height: 4vh;
+        width: auto;
+        cursor: pointer;
+        outline: none;
+        border-radius: 30px;
+        transition: 100ms ease;
+    }
+    .profile {
+        float: right;
+        position:relative;
+        bottom: 9.5vh;
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .mPencarian {
+        position: relative;
+        bottom: 25px;
+    }
+    .pencarian label svg {
+        height: 1.1vh;
+        width: auto;
+        fill: #979797;
+        transition: 200ms ease;
+    }
+    .profile img {
+        height: 3vh;
+        width: auto;
+        cursor: pointer;
+        outline: none;
+        border-radius: 30px;
+        transition: 100ms ease;
+    }
+    .profile {
+        float: right;
+        position: relative;
+        bottom: 7.5vh;
+    }
+    .upText {
+        font-family: 'Manrope';
+        width: 80%;    
+    }
+    .upText h2 {
+        font-size: 1.5vh;
+    }
+    .upText h1 {
+        font-size: 3vh;
+        font-weight: 900;
+        line-height: 1;
+        color: #374842;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .pencarian label {
+        left:  88%;
+    }
+    .upText h2 {
+        font-size: 1.5vh;
+    }
+    .upText h1 {
+        font-size: 2.5vh;
+        font-weight: 900;
+        line-height: 1;
+        color: #374842;
+    }
+    .profile img {
+        height: 3vh;
+        width: auto;
+        cursor: pointer;
+        outline: none;
+        border-radius: 30px;
+        transition: 100ms ease;
+    }
+    .profile {
+        float: right;
+        position: relative;
+        bottom: 7vh;
+    }
 }

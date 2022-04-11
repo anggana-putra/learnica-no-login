@@ -1,7 +1,7 @@
 .gradientSimulasi {
     position: absolute;
     height: 25vh;
-    width: 96%;
+    width: 100%;
     border-radius: 17px;
     z-index: 1;
     opacity: 0.3;
@@ -55,7 +55,7 @@
 .simulasiMode {
     border-radius: 18px;
     cursor: pointer;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 
 
@@ -64,7 +64,7 @@
 .gradientSandbox {
     position: absolute;
     height: 25vh;
-    width: 96%;
+    width: 100%;
     border-radius: 17px;
     z-index: 1;
     opacity: 0.3;
@@ -126,7 +126,7 @@
 .gradientVersus {
     position: absolute;
     height: 25vh;
-    width: 96%;
+    width: 100%;
     border-radius: 17px;
     z-index: 1;
     opacity: 0.3;
@@ -181,4 +181,112 @@
     border-radius: 18px;
     cursor: pointer;
     margin-top: 25px;
+}
+
+@media only screen and (max-width: 430px) {
+    .gradientSimulasi {
+        position: absolute;
+        height: 12vh;
+        width: 100%;
+    }
+    .simulasiMode .wrap {
+        height: 12vh;
+    }
+    .simulasiMode .rocket {
+        height: 12vh;
+        object-position: -30px 32%;
+    }
+    .siText h2 {
+        font-size: 2vh;
+    }
+    /*///*/
+    .gradientSandbox {
+        position: absolute;
+        height: 12vh;
+        width: 100%;
+    }
+    .sandboxMode .wrapSa {
+        height: 12vh;
+    }
+    .sandboxMode .planetO {
+        height: 12vh;
+        object-position: -70px 38%;
+    }
+    .saText {
+        padding: 20px 15px;
+        height: 25vh;
+    }
+    .saText h2 {
+        font-size: 2vh;
+    }
+    /*///*/
+    .gradientVersus {
+        position: absolute;
+        height: 12vh;
+        width: 100%;
+    }
+    .versusMode .wrapVe {
+        height: 12vh;
+    }
+    .versusMode .pencils {
+        height: 12vh;
+        object-position: -55px 38%;
+    }    
+    .veText h2 {
+        font-size: 2vh;
+    }    
+}
+
+@media only screen and (max-width: 320px) {
+    .gradientSimulasi {
+        height: 10vh;
+    }
+    .simulasiMode .wrap {
+        height: 10vh;
+    }
+    .simulasiMode .rocket {
+        height: 10vh;
+        object-position: -20px 32%;
+    }
+    .siText h2 {
+        font-size: 1.5vh;
+    }
+    .siText p {
+        padding-top: 5px;
+        font-size: 70%;
+    }
+    /*///*/
+    .gradientSandbox {
+        height: 10vh;
+    }
+    .sandboxMode .wrapSa {
+        height: 10vh;
+    }
+    .sandboxMode .planetO {
+        height: 10vh;
+        object-position: -50px 38%;
+    }
+    .saText h2 {
+        font-size: 1.5vh;
+    }
+    .saText p {
+        font-size: 70%;
+    }
+    /*///*/
+    .gradientVersus {
+        height: 10vh;
+    }
+    .versusMode .wrapVe {
+        height: 10vh;
+    }
+    .versusMode .pencils {
+        height: 10vh;
+        object-position: -40px 38%;
+    }    
+    .veText h2 {
+        font-size: 1.5vh;
+    }
+    .veText p {
+        font-size: 70%;
+    }    
 }

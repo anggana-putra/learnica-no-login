@@ -1,15 +1,13 @@
 .quickBar {
     position: fixed;
-    top: 87%;
-    left: 50%;
-    transform: translate(-50%);
+    top: 93%;
     display: flex;
     flex-direction: row;
     align-items: center;
     list-style: none;
     background-color: white;
-    width: 65vh;
-    height: 15vh;
+    width: 100%;
+    height: 8vh;
     border-radius: 10px;
     border: solid 1px #d8daed;
     z-index: 2;
@@ -18,8 +16,7 @@
   }
   
   .quickBar li {
-    padding: 1vh;
-    margin: 0 36px;
+    padding: 2.7vh;
   }
   
   #home-ico,

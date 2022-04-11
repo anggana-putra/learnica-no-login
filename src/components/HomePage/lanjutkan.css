@@ -127,3 +127,113 @@
     bottom: 30px;
 }
 
+@media only screen and (max-width: 430px) {    
+    .wrapLan h2 {
+        font-size: 3vh;
+        }
+    .pembelajaranOne .wrap-pembelajaranOne {
+        height: 15vh;
+    }
+    .pembelajaranOne .astronomi {
+        height: 15vh;
+        width: 60%;
+        object-fit: cover;
+        object-position: -80px -0%;
+    }
+    
+    .asText {
+        position: relative;
+        text-align: center;
+        padding: 10vh 0 0 0;
+        height: 1vh;
+        width: 100%;
+        border-radius: 0 17px 17px 0;
+        margin-left: 0%;
+        font-family: 'Manrope';
+        color: white;
+    }
+    .asText h2 {
+        font-size: 1.5vh;
+    }
+    .asText p {
+        font-size: 1vh;
+    }
+    .slide {
+        position: absolute;
+        border-radius: 5px;
+        height: 0.5vh;
+        width: 40%;
+        background-color: #1EE494;
+    }
+    
+    .slideB {
+        position: absolute;
+        border-radius: 5px;
+        height: 0.5vh;
+        width: 80%;
+    }
+    #slide {
+        margin-left: 15px;
+        margin-top: 10px;
+    } 
+}
+
+@media only screen and (max-width: 375px) {
+    .pembelajaranOne .astronomi {
+        height: 15vh;
+        width: 65%;
+        object-fit: cover;
+        object-position: -90px -10%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .pembelajaranOne .astronomi {
+        height: 15vh;
+        width: 65%;
+        object-fit: cover;
+        object-position: -80px -200%;
+    }
+    .riwayat {
+        height: 165px;
+        width: 100%;
+        background-color: #fafafa;
+        border-radius: 10px;
+        padding: 30px 30px;
+        outline: solid 2px #D8DAED;
+        margin: 20px 0 50px 0;
+    }
+    
+    .riwayat h3 {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .riwayat h1 {
+        position: relative;
+        bottom: 21px;
+        font-size: 23px;
+    }
+    
+    
+    .riwayat button {
+        height: 34px;
+        width: 100px;
+        cursor: pointer;
+        outline: none;
+        background-color: #1EE494;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Manrope';
+        font-weight: 600;
+        color: #374842;
+        position: relative;
+        bottom: 6px;
+    }
+    
+    .riwayat p {
+        position: relative;
+        left: 80%;
+        bottom: 30px;
+    }
+}
