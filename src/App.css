@@ -2,29 +2,21 @@ html {
   margin: 0;
   padding: 0;
   box-sizing:border-box;
+  overflow-y: hidden;
 }
 
 .warper {
   position: absolute;
   height: 100%;
-  width: 105%;
-  margin: 6% 4%;
+  width: 100%;
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 400px) {
   .warper {
     height: 100%;
-    width: 92%;
+    width: 100%;
     overflow-x: hidden;
-    padding-left: 5px;
-  }
-}
-
-@media only screen and (max-width: 375px) {
-  .warper {
-    height: 100%;
-    width: 93%;
-    overflow-x: hidden;
-    padding-left: 3px;
+    padding: 0 5px;
+    padding: 20px 20px;
   }
 }

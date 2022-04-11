@@ -15,6 +15,7 @@
     width: 40%;
     border-radius: 17px;
     outline: solid 2px #D8DAED;
+    cursor: pointer;
 }
 
 .wrap-pembelajaranOne:hover {
@@ -127,81 +128,30 @@
     bottom: 30px;
 }
 
-@media only screen and (max-width: 430px) {    
-    .wrapLan h2 {
-        font-size: 3vh;
-        }
-    .pembelajaranOne .wrap-pembelajaranOne {
-        height: 15vh;
-    }
-    .pembelajaranOne .astronomi {
-        height: 15vh;
-        width: 60%;
-        object-fit: cover;
-        object-position: -80px -0%;
-    }
-    
-    .asText {
-        position: relative;
-        text-align: center;
-        padding: 10vh 0 0 0;
-        height: 1vh;
-        width: 100%;
-        border-radius: 0 17px 17px 0;
-        margin-left: 0%;
-        font-family: 'Manrope';
-        color: white;
-    }
-    .asText h2 {
-        font-size: 1.5vh;
-    }
-    .asText p {
-        font-size: 1vh;
-    }
-    .slide {
-        position: absolute;
-        border-radius: 5px;
-        height: 0.5vh;
-        width: 40%;
-        background-color: #1EE494;
-    }
-    
-    .slideB {
-        position: absolute;
-        border-radius: 5px;
-        height: 0.5vh;
-        width: 80%;
-    }
-    #slide {
-        margin-left: 15px;
-        margin-top: 10px;
-    } 
-}
-
-@media only screen and (max-height: 667) {
+@media only screen and (max-width: 400px) {
     .pembelajaranOne .astronomi {
         height: 15vh;
         width: 65%;
         object-fit: cover;
         object-position: -90px -10%;
     }
-        .wrapLan h2 {
+    .wrapLan h2 {
         font-size: 3vh;
-        }
+    }
     .pembelajaranOne .wrap-pembelajaranOne {
-        height: 15vh;
+        height: 23vh;
     }
     .pembelajaranOne .astronomi {
-        height: 15vh;
+        height: 23vh;
         width: 60%;
         object-fit: cover;
-        object-position: -80px -0%;
+        object-position: -90px -0%;
     }
     
     .asText {
         position: relative;
         text-align: center;
-        padding: 10vh 0 0 0;
+        padding: 17vh 0 0 0;
         height: 1vh;
         width: 100%;
         border-radius: 0 17px 17px 0;
@@ -210,10 +160,10 @@
         color: white;
     }
     .asText h2 {
-        font-size: 1.5vh;
+        font-size: 2vh;
     }
     .asText p {
-        font-size: 1vh;
+        font-size: 1.5vh;
     }
     .slide {
         position: absolute;
@@ -231,38 +181,33 @@
     }
     #slide {
         margin-left: 15px;
-        margin-top: 10px;
+        margin-top: 5px;
     } 
-}
-
-@media only screen and (max-width: 320px) {
-    .pembelajaranOne .astronomi {
-        height: 15vh;
-        width: 65%;
-        object-fit: cover;
-        object-position: -80px -200%;
+    .wrap-riwayat {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
+    
     .riwayat {
-        height: 165px;
+        height: 140px;
         width: 100%;
         background-color: #fafafa;
         border-radius: 10px;
-        padding: 30px 30px;
+        padding: 15px 25px;
         outline: solid 2px #D8DAED;
         margin: 20px 0 50px 0;
     }
     
     .riwayat h3 {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 500;
     }
     
     .riwayat h1 {
         position: relative;
-        bottom: 21px;
-        font-size: 23px;
+        bottom: 20px;
+        font-size: 27px;
     }
-    
     
     .riwayat button {
         height: 34px;
@@ -276,12 +221,13 @@
         font-weight: 600;
         color: #374842;
         position: relative;
-        bottom: 6px;
+        bottom: 8px;
     }
     
     .riwayat p {
         position: relative;
-        left: 80%;
-        bottom: 30px;
+        left: 82%;
+        bottom: 22px;
+        font-size: 15px;
     }
 }

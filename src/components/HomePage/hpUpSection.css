@@ -79,13 +79,19 @@
     fill: black;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 400px) {
     .mPencarian {
         position: relative;
         bottom: 25px;
     }
+    .pencarian label {
+        position: absolute;
+        left:  92%;
+        margin-top: 0.7vh;
+        cursor:pointer;
+    }
     .pencarian input {
-        height: 6vh;
+        height: 4vh;
         width: 100%;
         padding: 0 15px;
         font-family: 'Manrope';
@@ -95,13 +101,13 @@
         outline: none;
     }
     .pencarian label svg {
-        height: 2vh;
+        height: 1.7vh;
         width: auto;
         fill: #979797;
         transition: 200ms ease;
     }
     .profile img {
-        height: 6vh;
+        height: 5vh;
         width: auto;
         cursor: pointer;
         outline: none;
@@ -111,47 +117,19 @@
     .profile {
         float: right;
         position: relative;
-        bottom: 15vh;
+        bottom: 12vh;
     }
     .upText {
         font-family: 'Manrope';
         width: 70%;    
     }
     .upText h2 {
-        font-size: 3vh;
+        font-size: 2vh;
     }
     .upText h1 {
-        font-size: 6vh;
+        font-size: 5vh;
         font-weight: 900;
         line-height: 1;
         color: #374842;
     }
 }
-
-/* @media only screen and (max-width: 320px) {
-    .pencarian label {
-        left:  80%;
-    }
-    .upText h2 {
-        font-size: 1.5vh;
-    }
-    .upText h1 {
-        font-size: 2.5vh;
-        font-weight: 900;
-        line-height: 1;
-        color: #374842;
-    }
-    .profile img {
-        height: 3vh;
-        width: auto;
-        cursor: pointer;
-        outline: none;
-        border-radius: 30px;
-        transition: 100ms ease;
-    }
-    .profile {
-        float: right;
-        position: relative;
-        bottom: 3vh;
-    }
-} */
