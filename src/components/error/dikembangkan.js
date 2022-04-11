@@ -4,8 +4,11 @@ import './dikembangkan.css';
 function dikembangkan() {
     return(
         <div className="wrap-error">
-            <h1>Upss.. Fitur Ini Masih Dikembangkan</h1>
             <img src={IllustDikembangkan} alt="illust error"/>
+            <div className="text-error">
+                <h1>Upss..</h1>
+                <h3>Fitur Ini Masih Dikembangkan</h3>
+            </div>
         </div>
     );
 }
