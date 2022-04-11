@@ -80,6 +80,7 @@
     fill: black;
 }
 
+/* tested on xiomi redmi note 10 */
 @media only screen and (max-width: 400px) {
     .mPencarian {
         position: relative;
