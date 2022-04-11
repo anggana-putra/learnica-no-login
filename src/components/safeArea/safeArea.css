@@ -1,0 +1,65 @@
+
+.safeArea {
+    background-color: #1EE494;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+
+.wrap-safeArea {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-safeArea{
+    text-align: center;
+    color: white;
+    font-family: 'Manrope';
+    width: 300px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text-safeArea h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.wrap-stayTune img {
+    height: 350px;
+    width: auto;
+}
+
+#white-learnica {
+    position: relative;
+    top: 100px;
+    left: 130px;
+    height: 18px;
+    width: auto;
+}
+
+/* Jika layar devic lebih besar daripada 400px maka akan memunculkan safeArea */
+
+
+@media only screen and (max-width: 400px) {
+    .safeArea {
+        background-color: #1EE494;
+        height: 100%;
+        width: 100%;
+        z-index: -3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+    }
+}

@@ -11,11 +11,13 @@ import Setting from './components/setting/setting';
 import  Error from './components/error/dikembangkan';
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SafeArea from './components/safeArea/safeArea';
 
 
 function App() {
   return (
   <div>
+<SafeArea />
 <Router>
 <QuickBar/>
   <div className="warper">
