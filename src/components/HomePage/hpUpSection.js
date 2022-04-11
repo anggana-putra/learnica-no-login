@@ -12,7 +12,7 @@ function homePage() {
             </div>
             <div className="profile">
                 <Link to="/profile">
-                    <img src={Profile} />
+                    <img src={Profile} alt="Profile" />
                 </Link>
             </div>
             <div className="mPencarian">
