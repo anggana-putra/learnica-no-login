@@ -6,7 +6,7 @@
 
 .upText {
     font-family: 'Manrope';
-    width: 70%;
+    width: 80%;
 }
 
 .upText h2 {
@@ -79,70 +79,29 @@
     fill: black;
 }
 
-@media only screen and (max-width: 430px) {
-    .mPencarian {
-        position: relative;
-        bottom: 30px;
-    }
-    .pencarian label {
-        position: absolute;
-        left:  91%;
-        margin-top: 0.8vh;
-        cursor:pointer;
-    }
-    .pencarian label svg {
-        height: 1.3vh;
-        width: auto;
-        fill: #979797;
-        transition: 200ms ease;
-    }
-    .pencarian input {
-        height: 3vh;
-        width: 100%;
-    }
-    .upText {
-        font-family: 'Manrope';
-        width: 90%;    
-    }
-    .upText h2 {
-        font-size: 2vh;
-    }
-    .upText h1 {
-        font-size: 3.5vh;
-        font-weight: 900;
-        line-height: 1;
-        color: #374842;
-    }
-    .profile img {
-        height: 4vh;
-        width: auto;
-        cursor: pointer;
-        outline: none;
-        border-radius: 30px;
-        transition: 100ms ease;
-    }
-    .profile {
-        float: right;
-        position:relative;
-        bottom: 9.5vh;
-        display: block;
-    }
-    
-}
-
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 620px) {
     .mPencarian {
         position: relative;
         bottom: 25px;
     }
+    .pencarian input {
+        height: 6vh;
+        width: 100%;
+        padding: 0 15px;
+        font-family: 'Manrope';
+        border-radius: 8px;
+        border: none;
+        background-color: #F1F2FA;
+        outline: none;
+    }
     .pencarian label svg {
-        height: 1.1vh;
+        height: 2vh;
         width: auto;
         fill: #979797;
         transition: 200ms ease;
     }
     .profile img {
-        height: 3vh;
+        height: 6vh;
         width: auto;
         cursor: pointer;
         outline: none;
@@ -152,26 +111,26 @@
     .profile {
         float: right;
         position: relative;
-        bottom: 7.5vh;
+        bottom: 15vh;
     }
     .upText {
         font-family: 'Manrope';
-        width: 80%;    
+        width: 70%;    
     }
     .upText h2 {
-        font-size: 1.5vh;
+        font-size: 3vh;
     }
     .upText h1 {
-        font-size: 3vh;
+        font-size: 6vh;
         font-weight: 900;
         line-height: 1;
         color: #374842;
     }
 }
 
-@media only screen and (max-width: 320px) {
+/* @media only screen and (max-width: 320px) {
     .pencarian label {
-        left:  88%;
+        left:  80%;
     }
     .upText h2 {
         font-size: 1.5vh;
@@ -193,6 +152,6 @@
     .profile {
         float: right;
         position: relative;
-        bottom: 7vh;
+        bottom: 3vh;
     }
-}
+} */

@@ -183,7 +183,7 @@
     margin-top: 25px;
 }
 
-@media only screen and (max-width: 430px) {
+/* @media only screen and (max-width: 430px) {
     .gradientSimulasi {
         position: absolute;
         height: 12vh;
@@ -235,25 +235,25 @@
     .veText h2 {
         font-size: 2vh;
     }    
-}
+} */
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 620px) {
     .gradientSimulasi {
-        height: 10vh;
+        height: 15vh;
     }
     .simulasiMode .wrap {
         height: 10vh;
     }
     .simulasiMode .rocket {
         height: 10vh;
-        object-position: -20px 32%;
+        object-position: 0px 32%;
     }
     .siText h2 {
         font-size: 1.5vh;
     }
     .siText p {
         padding-top: 5px;
-        font-size: 70%;
+        font-size: 50%;
     }
     /*///*/
     .gradientSandbox {
