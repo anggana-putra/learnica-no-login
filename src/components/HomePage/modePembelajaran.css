@@ -59,7 +59,6 @@
 }
 
 
-/*//////*/
 
 .gradientSandbox {
     position: absolute;
@@ -121,7 +120,6 @@
     margin-top: 25px;
 }
 
-/*//////*/
 
 .gradientVersus {
     position: absolute;
@@ -183,60 +181,6 @@
     margin-top: 25px;
 }
 
-/* @media only screen and (max-width: 430px) {
-    .gradientSimulasi {
-        position: absolute;
-        height: 12vh;
-        width: 100%;
-    }
-    .simulasiMode .wrap {
-        height: 12vh;
-    }
-    .simulasiMode .rocket {
-        height: 12vh;
-        object-position: -30px 32%;
-    }
-    .siText h2 {
-        font-size: 2vh;
-    }
-    /*///*/
-    .gradientSandbox {
-        position: absolute;
-        height: 12vh;
-        width: 100%;
-    }
-    .sandboxMode .wrapSa {
-        height: 12vh;
-    }
-    .sandboxMode .planetO {
-        height: 12vh;
-        object-position: -70px 38%;
-    }
-    .saText {
-        padding: 20px 15px;
-        height: 25vh;
-    }
-    .saText h2 {
-        font-size: 2vh;
-    }
-    /*//*/
-    .gradientVersus {
-        position: absolute;
-        height: 12vh;
-        width: 100%;
-    }
-    .versusMode .wrapVe {
-        height: 12vh;
-    }
-    .versusMode .pencils {
-        height: 12vh;
-        object-position: -55px 38%;
-    }    
-    .veText h2 {
-        font-size: 2vh;
-    }    
-} */
-
 @media only screen and (max-width: 620px) {
     .gradientSimulasi {
         height: 15vh;
@@ -255,7 +199,6 @@
         padding-top: 5px;
         font-size: 50%;
     }
-    /*///*/
     .gradientSandbox {
         height: 10vh;
     }
@@ -272,7 +215,6 @@
     .saText p {
         font-size: 70%;
     }
-    /*///*/
     .gradientVersus {
         height: 10vh;
     }
