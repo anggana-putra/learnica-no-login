@@ -1,0 +1,64 @@
+.top-part-simo {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+#simo-p-up-part{
+    padding-left: 22%;
+    font-weight: 700;
+    color: #374842;
+}
+
+.rocket {
+    height: 36vh;
+    width: 95%;
+    object-fit: cover;
+    object-position: -0px 10%;
+    position: absolute;
+}
+
+.top-bab {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.top-bab h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #374842;
+}
+
+#bab-kimia-filter {
+    margin-left: 67%;
+}
+
+.bab-data {
+    height: 380px;
+    width: 100%;
+    padding-right: 20px;
+    overflow-y: scroll;
+}
+
+#bab {
+    background-color: #e9eaf7;
+    height: 100px;
+    border-radius: 10px;
+    margin: 3vh 0;
+    padding: 19px 20px;
+    color: #374842;
+}
+
+#bab h4 {
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.bab-two, .bab-three, .bab-four, .bab-five {
+    opacity: 0.6;
+}

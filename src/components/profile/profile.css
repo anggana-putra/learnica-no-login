@@ -103,15 +103,15 @@
     outline: solid 9px #ECECEC;
 }
 
-.back {
+.back-profile {
     cursor: pointer;
     outline: none;
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: transparent;
     transition: 200ms ease;
 }
 
-.back:hover {
+.back-profile:hover {
     outline: solid 5px #ECECEC;
     background-color: #ECECEC;
 }

@@ -1,0 +1,68 @@
+.up-part img {
+    height: 240px;
+    width: auto;
+}
+
+.up-part h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #374842;
+    margin-bottom: 30px;
+}
+
+.up-part {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #F1F2FA;
+    width: 105%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
+}
+
+.data-user-all {
+    margin-top: 90%;
+    overflow: scroll;
+    height: 50vh;
+    padding-bottom: 70px;
+}
+
+.user {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 10px 0;
+    color: #374842;
+
+}
+
+.user #no {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.user #avatar {
+    margin-right: 20px;
+}
+
+#user-me {
+    background-color: #F1F2FA;
+    border-radius: 5px;
+}
+
+#user-me #avatar-me {
+    height: 48px;
+    width: auto;
+    margin-right: 20px;
+}
+
+#username {
+    font-size: 23px;
+}
+
+#share {
+    margin-left: 9vh;
+    fill: #374842;
+}

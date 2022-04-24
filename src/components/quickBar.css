@@ -10,11 +10,29 @@
     height: 10vh;
     border-radius: 10px;
     border: solid 1px #d8daed;
-    z-index: 2;
+    z-index: 3;
     overflow: hidden;
     opacity: 1;
   }
   
+  .quickBar.quickBar-hide {
+    position: fixed;
+    top: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    background-color: white;
+    width: 100%;
+    height: 10vh;
+    border-radius: 10px;
+    border: solid 1px #d8daed;
+    pointer-events: none;
+    z-index: -1;
+    overflow: hidden;
+    opacity: o;
+  }
+
   .quickBar li {
     padding: 4.4vh;
   }

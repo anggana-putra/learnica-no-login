@@ -4,12 +4,17 @@ import rocket from '../../assets/rocket.png';
 import planetO from '../../assets/planetO.png';
 import pencils from '../../assets/Pencils.png';
 
+import SimoOne from '../simulasiMode/simoPageOne'
+
+import { Link } from "react-router-dom";
 
 function modePembelajaran() {
     return(
     <div>
         <div className="simulasiMode">
+            <Link to ='/simulasiMode'>
             <div className="gradientSimulasi"></div>
+            </Link>
                 <div className="wrap" id="wrap">
                 <img className="rocket" src={rocket} alt="rocket"></img>
                 <div className="siText">

@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-part-simo {
+    display: flex;
+    flex-direction: row;
+    padding: 0 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+#simo-p-up-part{
+    padding-left: 22%;
+    font-weight: 700;
+    color: #374842;
+}
+
+.rocket {
+    height: 36vh;
+    width: 95%;
+    object-fit: cover;
+    object-position: -0px 10%;
+    position: absolute;
+}
+
+.middle-part-up-simo {
+    position: relative;
+    right: 8%;
+    bottom: 3vh;
+    background: #F1F2FA;
+    height: 36vh;
+    width: 115%;
+    border-radius: 17px;
+}
+
+.stem-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 350px;
+    height: 500px;
+    align-content:space-between;
+    padding-bottom: 80px;
+}
+
+.stem h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #374842;
+    margin-bottom: 20px;
+}
+
+.code-stem {
+    position: relative;
+    background: #F1F2FA;
+    height: 25vh;
+    width: 45%;
+    border-radius: 17px;
+    margin-right: 2vh;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+
+.code-stem h3 {
+    position: absolute;
+    z-index: 2;
+    font-weight: 800;
+    font-size: 22px;
+    left: 50%;
+    top: 83%;
+    transform: translate(-50%,-50%);
+    color: #374842;
+}
+
+#code-img {
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    height: 120px;
+    width: auto;
+    z-index: 0;
+}
+
+.gradient-code {
+    position: absolute;
+    height: 25vh;
+    width: 100%;
+    border-radius: 17px;
+    background: rgba(36, 36, 36, 0.575);
+    background: linear-gradient(0deg, rgba(17, 17, 17, 0.178) -10%, rgba(12, 12, 12, 0) 80%);
+    z-index: 1;
+}
+
+.kimia-stem {
+    position: relative;
+    background: #F1F2FA;
+    height: 25vh;
+    width: 45%;
+    border-radius: 17px;
+    margin-left: 2vh;
+}
+
+.kimia-stem h3 {
+    position: absolute;
+    z-index: 2;
+    font-weight: 800;
+    font-size: 22px;
+    left: 50%;
+    top: 83%;
+    transform: translate(-50%,-50%);
+    color: #374842;
+}
+
+#kimia-img {
+    position: relative;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    height: 120px;
+    width: auto;
+    z-index: 0;
+}
+
+.gradient-kimia {
+    position: absolute;
+    height: 25vh;
+    width: 100%;
+    border-radius: 17px;
+    background: rgba(36, 36, 36, 0.575);
+    background: linear-gradient(0deg, rgba(17, 17, 17, 0.178) -10%, rgba(12, 12, 12, 0) 80%);
+    z-index: 1;
+}
+
+.astro-stem {
+    position: relative;
+    background: #F1F2FA;
+    height: 25vh;
+    width: 45%;
+    border-radius: 17px;
+    margin-right: 2vh;
+    margin-top: 3vh;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+
+.astro-stem h3 {
+    position: absolute;
+    z-index: 2;
+    font-weight: 800;
+    font-size: 22px;
+    left: 50%;
+    top: 83%;
+    transform: translate(-50%,-50%);
+    color: #374842;
+}
+
+#astro-img {
+    position: relative;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    height: 120px;
+    width: auto;
+    z-index: 0;
+}
+
+.gradient-astro {
+    position: absolute;
+    height: 25vh;
+    width: 100%;
+    border-radius: 17px;
+    background: rgba(36, 36, 36, 0.575);
+    background: linear-gradient(0deg, rgba(17, 17, 17, 0.178) -10%, rgba(12, 12, 12, 0) 80%);
+    z-index: 1;
+}
+
+.fisika-stem {
+    position: relative;
+    background: #F1F2FA;
+    height: 25vh;
+    width: 45%;
+    border-radius: 17px;
+    margin-left: 2vh;
+    margin-top: 3vh;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+
+.fisika-stem h3 {
+    position: absolute;
+    z-index: 2;
+    font-weight: 800;
+    font-size: 22px;
+    left: 50%;
+    top: 83%;
+    transform: translate(-50%,-50%);
+    color: #374842;
+}
+
+#fisika-img {
+    position: relative;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%,-50%);
+    height: 120px;
+    width: auto;
+    z-index: 0;
+}
+
+.gradient-fisika {
+    position: absolute;
+    height: 25vh;
+    width: 100%;
+    border-radius: 17px;
+    background: rgba(36, 36, 36, 0.575);
+    background: linear-gradient(0deg, rgba(17, 17, 17, 0.178) -10%, rgba(12, 12, 12, 0) 80%);
+    z-index: 1;
+}

@@ -1,0 +1,49 @@
+#kimia-fade {
+    color: #979797;
+}
+
+.top-bab span {
+    color: #374842;
+}
+
+#kimia-one-filter {
+    margin-left: 37%;
+}
+
+#data-bab-one {
+    margin-top: 12px;
+    border-bottom: solid 1px #ECECEC;
+    display: flex;
+    padding: 20px 25px;
+    font-size: 20px;
+    align-items: center;
+}
+
+#data-bab-one #book-svg {
+    margin-right: 20px;
+    height: 22px;
+    width: auto;
+}
+
+#data-bab-one #box-svg {
+    margin-right: 20px;
+    height: 25px;
+    width: auto;
+}
+
+#data-bab-one #next-svg {
+    height: 20px;
+    width: auto;
+}
+
+#data-bab-one p{
+    width: 90%;
+}
+
+.data-two-bab-one {
+    opacity: 0.6;
+}
+
+.data-one-bab-one {
+    opacity: 0.6;
+}
