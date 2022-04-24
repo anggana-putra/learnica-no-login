@@ -13,7 +13,7 @@ function SimulasiModeOne() {
     const [Elektron, setElektron] = useState(0);
     const [Neutron, setNeutron] = useState(0);
     const [Kimia, setKimia] = useState("Kosong");
-    const [Massa, setMassa] = useState({
+    const [Massa] = useState({
         Helium: 4,
         Hidrogen: 1,
         Lithium: 7,
@@ -46,9 +46,9 @@ function SimulasiModeOne() {
     const SetMaxMinPro = () => {
         if(Proton < 10) {
             setProton(Proton + 1)
-        } if (Proton == 0) {
+        } if (Proton === 0) {
             document.querySelector(".center-three").classList.add("center-three-on");
-        } if (Proton == 1) {
+        } if (Proton === 1) {
             document.querySelector(".center-four").classList.add("center-four-on");
         }
     }
@@ -56,13 +56,13 @@ function SimulasiModeOne() {
     const SetMaxMinElek = () => {
         if(Elektron < 10) {
             setElektron(Elektron + 1)
-        } if (Elektron == 0) {
+        } if (Elektron === 0) {
             document.querySelector(".circle-one").classList.add("circle-one-on");
-         } if (Elektron == 1) {
+         } if (Elektron === 1) {
             document.querySelector(".circle-three").classList.add("circle-three-on");
-         }  if (Elektron == 2) {
+         }  if (Elektron === 2) {
             document.querySelector(".circle-two").classList.add("circle-two-on");
-         }  if (Elektron == 3) {
+         }  if (Elektron === 3) {
             document.querySelector(".circle-four").classList.add("circle-four-on");
          }
     }
@@ -70,9 +70,9 @@ function SimulasiModeOne() {
     const SetMaxMinNeutron = () => {
         if(Neutron < 10) {
             setNeutron(Neutron + 1)
-        } if (Neutron == 0) {
+        } if (Neutron === 0) {
             document.querySelector(".center-one").classList.add("center-one-on");
-        } if (Neutron == 1) {
+        } if (Neutron === 1) {
             document.querySelector(".center-two").classList.add("center-two-on");
         }
     }
@@ -83,20 +83,20 @@ function SimulasiModeOne() {
     const NeutronBe = Massa.Beryllium - Elektron;
 
     const KimiaName = () => {
-        if(Elektron == 2 && Neutron == NeutronHe && Proton == 2) {
+        if(Elektron === 2 && Neutron === NeutronHe && Proton === 2) {
             setKimia("He");
             document.querySelector(".jawaban-benar").classList.add("on-board-jawaban-benar");
             document.querySelector(".black-back").classList.add("black-back-on");
             
-        } else if (Elektron == 1 && Neutron == NeutronHi && Proton == 1) {
+        } else if (Elektron === 1 && Neutron === NeutronHi && Proton === 1) {
             setKimia("Hi")
             document.querySelector(".jawaban-salah").classList.add("on-board-jawaban-salah");
             document.querySelector(".black-back").classList.add("black-back-on");
-        } else if (Elektron == 2 && Neutron == NeutronLi && Proton == 3) {
+        } else if (Elektron === 2 && Neutron === NeutronLi && Proton === 3) {
             setKimia("Li")
             document.querySelector(".jawaban-salah").classList.add("on-board-jawaban-salah");
             document.querySelector(".black-back").classList.add("black-back-on");
-        } else if (Elektron == 4 && Neutron == NeutronBe && Proton == 4) {
+        } else if (Elektron === 4 && Neutron === NeutronBe && Proton === 4) {
             setKimia("Be")
             document.querySelector(".jawaban-salah").classList.add("on-board-jawaban-salah");
             document.querySelector(".black-back").classList.add("black-back-on");

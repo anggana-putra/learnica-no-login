@@ -1,6 +1,5 @@
 import React from 'react'
 import rocket from '../../../assets/rocket.png';
-import astronomi from '../../../assets/astronomi.png'
 import { Link } from 'react-router-dom';
 import './babKimia.css';
 
