@@ -12,7 +12,7 @@ function SimulasiModeOne() {
     const [Proton, setProton] = useState(0);
     const [Elektron, setElektron] = useState(0);
     const [Neutron, setNeutron] = useState(0);
-    const [Kimia, setKimia] = useState("Kosong");
+    const [Kimia, setKimia] = useState("-");
     const [Massa] = useState({
         Helium: 4,
         Hidrogen: 1,
@@ -24,7 +24,7 @@ function SimulasiModeOne() {
         setProton(0);
         setElektron(0);
         setNeutron(0);
-        setKimia("Kosong");
+        setKimia("-");
 
         document.querySelector(".jawaban-benar").classList.remove("on-board-jawaban-benar");
         document.querySelector(".black-back").classList.remove("black-back-on");
@@ -89,7 +89,7 @@ function SimulasiModeOne() {
             document.querySelector(".black-back").classList.add("black-back-on");
             
         } else if (Elektron === 1 && Neutron === NeutronHi && Proton === 1) {
-            setKimia("Hi")
+            setKimia("H")
             document.querySelector(".jawaban-salah").classList.add("on-board-jawaban-salah");
             document.querySelector(".black-back").classList.add("black-back-on");
         } else if (Elektron === 2 && Neutron === NeutronLi && Proton === 3) {
